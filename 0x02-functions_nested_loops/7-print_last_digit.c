@@ -1,4 +1,7 @@
 #include "main.h"
+
+
+
 /**
  * print_last_digit - prunt lats number
  *@c: The int to convert to absolute
@@ -6,7 +9,15 @@
  */
 int print_last_digit(int c)
 {
-_putchar('f');	
-return (_abs(c) % 10);
+if (c < 0)
+{
+int absVal = c + (c * -2);
+return (absVal % 10);
+}
+
+else
+return (c % 10);
+
+
 }
 
