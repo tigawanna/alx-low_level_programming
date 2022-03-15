@@ -6,11 +6,13 @@
  * Return: alwys oid
  */
 void print_alphabet_x10(void)
+int x;
+char c;
 {
-for (int x = 0; x < 10; x++)
+for (x = 0; x < 10; x++)
 {
-for (char x = 'a'; x < 'z'; x++)
-_putchar(x);
+for (m = 'a'; m <= 'z'; m++)
+_putchar(m);
 
 _putchar('\n');
 }
