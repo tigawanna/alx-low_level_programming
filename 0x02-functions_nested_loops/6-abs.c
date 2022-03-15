@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - convert number to absolte
+ * _abs - convert number to absolte
  *@c: The int to convert to absolute
  * Return: absolute value
  */
