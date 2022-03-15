@@ -1,19 +1,21 @@
 #include "main.h"
-
 /**
- * main - check the code.
- *
- * Return: Always 0.
+ * _islower -check if number in upper of lowwer case
+ *@c: The character to print
+ * Return: 1 for upper 0 for lower
  */
-int main(void)
+int _islower(int c)
 {
-int r;
-r = _islower('H');
-_putchar(r + '0');
-r = _islower('o');
-_putchar(r + '0');
-r = _islower(108);
-_putchar(r + '0');
-_putchar('\n');
+if (c >= 65 && c <= 90)
+{
+return (1);
+}
+else if (c >= 72 && c <= 122)
+{
 return (0);
+}
+else
+{
+return (-1);
+}
 }
