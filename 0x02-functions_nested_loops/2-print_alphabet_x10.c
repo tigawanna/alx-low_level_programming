@@ -3,7 +3,7 @@
 /**
  * print_alphabet_x10 -prints out alphabet 10 times
  *
- * Return: void
+ * Return: alwys oid
  */
 void print_alphabet_x10(void)
 {
