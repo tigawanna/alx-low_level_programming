@@ -1,23 +1,19 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * print_sign - convert number to absolte
+ *@c: The int to convert to absolute
+ * Return: absolute value
  */
-int main(void)
-{
-int r;
 
-r = _abs(-1);
-printf("%d\n", r);
-r = _abs(0);
-printf("%d\n", r);
-r = _abs(1);
-printf("%d\n", r);
-r = _abs(-98);
-printf("%d\n", r);
-return (0);
+int _abs(int c)
+{
+if (c < 0)
+{
+int absVal = c + (c * -2);
+return (absVal);
 }
 
+else
+return (c);
+
+}
