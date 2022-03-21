@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_rev - prints line ofstring
+ * print_rev - prints line of string
  * @s: input of string
  * Return: void
  */
