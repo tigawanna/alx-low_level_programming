@@ -1,4 +1,4 @@
-	message db "Hello, Holberton",10
+	message db "Hello, main",10
 section .text
 global main
 main:
