@@ -11,6 +11,8 @@ object:
 
 dynamic:
 	${CC} *.o  -shared -o libdynamic.so
+dynamicpy:
+	${CC} *.o  -shared -o 100-operations.so
 
 link:
 	${CC} -o main main.o -L. -l_calc
