@@ -1,3 +1,4 @@
-*.c
-Makefile
-*.o
+
+libs4.c
+.vscode
+
